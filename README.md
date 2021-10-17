@@ -1,6 +1,5 @@
-<p align = "center">
 ![](img/heart-disease.jpg)
-</p
+
 
 # Prediksi Penderita Penyakit Jantung Berdasarkan Statistik Kesehatan 
 
