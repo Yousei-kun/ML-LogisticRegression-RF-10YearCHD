@@ -206,10 +206,10 @@ Dari evaluasi ini, saya menambahkan beberapa metrik tambahan untuk memudahkan da
 
   - Berdasarkan pengetahuan mengenai metrik yang telah didapatkan diatas, berikut adalah tampilan dalam bentuk teks yang merupakan TP, FP, TN, FN, yang ada pada model dalam bentuk teks, yang diekstrak menggunakan fungsi confusion matrix.
 
-    ![](img\metrik-cm.png)
+    ![](img/metrik-cm.png)
 
 - Heatmap visualisasi Confusion Matrix
 
 	- Untuk mempermudah dalam visualisasi dari CM, ini adalah tampilan dari heatmap dari hasil CM untuk mempermudah dalam melihat confusion matrix yang ada pada model Logistic Regression untuk mengetahui frekuensi terjadinya keempat kuadran tersebut.
 	
-	  ![](img\metrik-heatmap.png)
+    ![](img/metrik-heatmap.png)
