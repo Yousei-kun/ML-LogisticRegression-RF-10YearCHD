@@ -11,7 +11,7 @@
 
 ## Problem Domain
 
-![](img\grafik-jantung.jpg)
+![](img/grafik-jantung.jpg)
 
 **Penyakit jantung menjadi penyebab utama kematian di berbagai negara salah satunya adalah Indonesia.**
 
@@ -74,21 +74,21 @@ Dataset dapat didownload [disini](https://www.kaggle.com/dileep070/heart-disease
 - Overview Dataset (Pendekatan Statistik):
 	- Dataset terdiri dari 4238 baris/record data, dan setiap record memiliki 16 kolom data. (Dimensi dari dataset adalah 4238 rows x 16 columns). Berikut adalah screenshot dari dataframe overview.
 	
-	  ![](img\pre-df.png)
+	  ![](img/pre-df.png)
 
 	- Dataset memiliki beberapa nilai kosong atau NaN yang perlu dilakukan processing. Berikut adalah jumlah dari kolom NaN pada setiap kolom yang akan diproses dengan teknik yang akan dijelaskan dibawah.
 	
-	  ![](img\pre-nanval.png)
+	  ![](img/pre-nanval.png)
 	
 	- Berikut adalah relasi dari setiap data terhadap hasil prediksi dari Logistic Regression.
 
-	  ![](img\output1.png)  ![](img\output2.png)
-	  ![](img\output3.png)  ![](img\output4.png)
-	  ![](img\output5.png)  ![](img\output6.png)
-	  ![](img\output7.png)  ![](img\output8.png)
-	  ![](img\output9.png)  ![](img\output10.png)
-	  ![](img\output11.png)  ![](img\output12.png)
-	  ![](img\output13.png)  ![](img\output14.png)
+	  ![](img/output1.png)  ![](img/output2.png)
+	  ![](img/output3.png)  ![](img/output4.png)
+	  ![](img/output5.png)  ![](img/output6.png)
+	  ![](img/output7.png)  ![](img/output8.png)
+	  ![](img/output9.png)  ![](img/output10.png)
+	  ![](img/output11.png)  ![](img/output12.png)
+	  ![](img/output13.png)  ![](img/output14.png)
 	
 - Fitur pada dataset (Pendekatan Linguistik):
     - Demografi singkat:
@@ -133,7 +133,7 @@ Pembuatan model menggunakan 2 metode, yaitu:
 
 	- Rumus dari logistic regression secara umum dapat dilihat pada gambar berikut:
 	
-	  ![](C:\Users\xcessive\Desktop\MLT\img\rumus-logres.jpg)
+	  ![](img/rumus-logres.jpg)
 	
 	  Dari gambar tersebut, kesimpulan yang dapat diambil adalah bobot dari tiap variabel akan dihitung dalam setiap iterasi untuk mencari nilai paling optimal dari bobot dan bias dari variabel penentu. Setiap proporsi akan dihitung untuk menjadi bobot dari model.
 
@@ -143,7 +143,7 @@ Pembuatan model menggunakan 2 metode, yaitu:
   
 	- Rumus dari random forest secara umum dapat dilihat pada gambar berikut:
 	
-	  ![](C:\Users\xcessive\Desktop\MLT\img\rumus-rf.png)
+	  ![](img/rumus-rf.png)
 	
 	  Dari gambar tersebut, kesimpulan yang dapat diambil adalah setiap tree berdiri sendiri untuk mengambil keputusan dan memiliki keputusan yang independen. Dari setiap keputusan independen yang diambil oleh tree, keputusan akan diagregasi menjadi 1 keputusan akhir yang akan diimplementasikan oleh model dalam kasus klasifikasi atau regresi yang dilakukan.
 
@@ -167,7 +167,7 @@ Metrik
 
   Pada pemodelan klasifikasi — output model berupa label/kelas — terdapat beberapa metrik yang umum digunakan. Oleh sebab itu, penting untuk memahami setiap metrik tersebut, sehingga kita dapat menggunakannya dengan tepat — sesuai dengan karakteristik masalah yang sedang kita modelkan. Hal ini terkait dengan 4 kuadran kebenaran yang ada, yaitu True Positive, True Negative, False Positive, dan False Negative. Berikut adalah visualiasi mengenai metrik evaluasi tersebut:
 
-  ![](img\metrik-cn.png)
+  ![](img/metrik-cn.png)
 
   Pengetahuan mengenai 4 kuadran tersebut akan membantu dalam proses mengenal confussion matrix yang akan disediakan untuk model Logistic Regression yang akan diberikan.
 
@@ -175,7 +175,7 @@ Metrik
 
   - Akurasi merupakan metrik paling awam/paling diketahui pada pemodelan klasifikasi. Ia adalah persentase jumlah data yang diprediksi secara benar terhadap jumlah keseluruhan data. Berikut adalah rumus dalam melakukan pencarian terhadap akurasi sebuah model berdasarkan 4 kuadran tersebut:
 
-    ![](img\rumus-akurasi.jpg)
+    ![](img/rumus-akurasi.jpg)
 
   - Berikut adalah gambaran dari akurasi apabila digambarkan dalam teks berdasarkan model yang telah dibuat:
 
